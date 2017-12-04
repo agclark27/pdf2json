@@ -196,7 +196,7 @@ int main(int argc, char *argv[]) {
    if (scale>3.0) scale=3.0;
    if (scale<0.5) scale=0.5;
    
-   stout=gFalse;
+   stout=gTrue;
    complexMode = gTrue;
    noframes = gTrue;
    noMerge = gTrue;
